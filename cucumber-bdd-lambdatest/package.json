@@ -1,0 +1,13 @@
+{
+  "name": "cucumber-bdd-example",
+  "version": "1.0.0",
+  "description": "Cucumber BDD example with Selenium and LambdaTest",
+  "main": "index.js",
+  "scripts": {
+"test": "cucumber-js features --require step-definitions/**/*.js"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^9.0.0",
+    "selenium-webdriver": "^4.20.0"
+  }
+}
