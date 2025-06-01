@@ -23,3 +23,4 @@ Then('the user should be redirected to the account page', async function () {
   assert(url.includes('account/account'));
   await driver.quit();
 });
+
