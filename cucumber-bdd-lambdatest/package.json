@@ -4,7 +4,7 @@
   "description": "Cucumber BDD example with Selenium and LambdaTest",
   "main": "index.js",
   "scripts": {
-"test": "cucumber-js features --require step-definitions/**/*.js"
+    "test": "cucumber-js features --require step-definitions/**/*.js"
   },
   "dependencies": {
     "@cucumber/cucumber": "^9.0.0",
